@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.navbar{
+    width: 100%;
+    background-color:#871a0e;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+    text-align: center;
+    color:white;
+    font-family: 'Nabla', cursive;
+    flex-wrap: wrap;
+    font-size: 300%;
+    margin-bottom: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    height: 88vh;
+}
+.ChatBox{
+    width: 98vw;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+}
+.common{
+    padding:15px;
+    border-radius:25px;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;    
+    flex-wrap: wrap;
+    margin:10px;
+}
+.sendMessage{
+    background-color: #E25E3E;
+    align-self: flex-end;
+}
+.Join_Leave_Msg{
+    background-color: rgb(5, 178, 247);
+    align-self: center;
+    border-radius:25px;
+    font-size: 15px;
+}
+.receiveMessage{
+    background-color: #FFBB5C;
+}
+.enterMsg{
+    margin-top:auto;
+    margin-bottom:30px;
+    align-self: center;
+}
+.inputField
+{
+    border-radius:25px;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding:15px;
+    flex-wrap: wrap;
+    width:75vw;
+    background-color: rgb(144, 217, 246);
+    margin-left: 140px;
+}
+.button{
+    border-radius:50px;
+    padding:15px;
+    background-color: rgb(125, 211, 244);
+}
